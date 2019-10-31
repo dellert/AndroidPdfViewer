@@ -118,10 +118,10 @@ public class PDFView extends RelativeLayout {
     CacheManager cacheManager;
 
     /** Animation manager manage all offset and zoom animation */
-    private AnimationManager animationManager;
+    public AnimationManager animationManager;
 
     /** Drag manager manage all touch events */
-    private DragPinchManager dragPinchManager;
+    public DragPinchManager dragPinchManager;
 
     PdfFile pdfFile;
 

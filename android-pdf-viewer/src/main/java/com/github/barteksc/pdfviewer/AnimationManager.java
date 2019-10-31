@@ -31,7 +31,7 @@ import android.widget.OverScroller;
  * an animation, and call moveTo() on the PDFView as a result
  * of each animation update.
  */
-class AnimationManager {
+public class AnimationManager {
 
     private PDFView pdfView;
 
